@@ -83,7 +83,7 @@ const Login: React.FC<LoginProps> = ({ onLogin }) => {
       { showErrorAlert && (
         <AlertMessage severity="error" message="Invalid Credentials" title="Error"/>
       )}
-      <Grid container component="main" sx={{ height: '100vh' }}>
+      <Grid container component="main" sx={{ height: '100vh', width: '100vw' }}>
       
         <CssBaseline />
         <Grid

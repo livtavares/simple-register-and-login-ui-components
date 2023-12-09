@@ -85,7 +85,7 @@ const Register: React.FC<RegisterProps> = ({ onRegister }) => {
       { showErrorAlert && (
         <AlertMessage severity="error" message="Something went wrong! Try again in few seconds" title="Error"/>
       )}
-      <Container component="main" maxWidth="xs">
+      <Container component="main" maxWidth={false}>
         <CssBaseline />
         <Box
           sx={{
